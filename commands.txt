@@ -1,0 +1,1 @@
+ls "/Users/gabe/Library/CloudStorage/GoogleDrive-gabrielfquadrado@gmail.com/My Drive/5. Music/0. Samples/Backup" > "/Users/gabe/Library/CloudStorage/GoogleDrive-gabrielfquadrado@gmail.com/My Drive/5. Music/0. Samples/Backup/backup_filenames.txt"
