@@ -38,23 +38,57 @@ Samples/
 
 ## 🛠 Setup
 
-1. Clone the repo:
+### For Mac/Linux:
 
-```bash
-git clone https://github.com/YOUR_USERNAME/splice-organizer.git
-cd splice-organizer
-```
+1. **Clone the repo:**
+   ```bash
+   git clone git@github.com:YOUR_USERNAME/splice_sample_organizer.git
+   cd splice_sample_organizer
+   ```
 
-2. Customize the paths in `organizer_script.py` to your system:
-```python
-source_folder = os.path.expanduser("~/Splice/sounds")
-destination_folder = "/your/organized/folder"
-```
+2. **Install Python dependencies (if needed):**
+   ```bash
+   pip3 install -r requirements.txt  # Optional, only if you use external packages
+   ```
 
-3. Run the script:
-```bash
-python3 organizer_script.py
-```
+3. **Edit the `organizer_script.py`:**
+   Update these lines to match your folder paths:
+   ```python
+   source_folder = os.path.expanduser("~/Splice/sounds")
+   destination_folder = "/Users/YOURNAME/Path/To/Your/Samples"
+   ```
+
+4. **Run the script:**
+   ```bash
+   python3 organizer_script.py
+   ```
+
+---
+
+### For Windows:
+
+1. **Clone the repo (via Git Bash or Terminal):**
+   ```bash
+   git clone git@github.com:YOUR_USERNAME/splice_sample_organizer.git
+   cd splice_sample_organizer
+   ```
+
+2. **Install Python dependencies (if needed):**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Edit `organizer_script.py`:**
+   Update these lines:
+   ```python
+   source_folder = "C:/Users/YOURNAME/Splice/sounds"
+   destination_folder = "D:/Path/To/Your/Samples"
+   ```
+
+4. **Run the script:**
+   ```bash
+   python organizer_script.py
+   ```
 
 ---
 
